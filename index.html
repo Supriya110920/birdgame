@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fly Game</title>
+</head>
+<style>
+	body{
+		background-image: url(images/bg.png);
+		max-width: 480px;
+		max-height: 680px;
+
+	}
+
+    footer{
+    	background: #29293d;
+    	color: white;
+    	text-align: center;
+    	position: fixed;
+    	left: 0;
+    	bottom: 0;
+    	width: 100%;
+    	min-width: 480px;
+    }
+    .button{
+    	background-color: #1aff1a;
+    	position: fixed;
+    	left: 30%;
+    	top: 40%;
+    	font-size: 60px;
+    	text-align: center;
+    	text-decoration: none;
+    	color: green;
+    	margin:  20px auto;
+    	border-radius: 30px;
+
+    }
+    a{
+    	text-decoration: none;
+    	padding: 14px 25px;
+    	margin-left: 10px;
+    	display: inline-block;
+    	border:2px solid green; 
+
+    }
+    a:hover{
+    	background-color: green;
+    	color: white;
+    }
+    img{
+    	position: fixed;
+    	left: 20%;
+    	top: 7%;
+    	height: 300px;
+    	width: 300px;
+    	animation-name: fly;
+    	animation-duration: 3s;
+    	animation-iteration-count: infinite;
+
+    }
+     h2{
+     	position: fixed;
+     	bottom: 30%;
+     	left: 27%;
+     	font-size: 40px;
+     	color: #009900;
+     }
+     @keyframes fly{
+        0%{
+            top: 0%;
+        }
+        25%{
+            top: 7%;
+        }
+        50%{
+            top: 0%;
+        }
+        75%{
+            top: 7%;
+        }
+        100%{
+            top: 0%;
+        }
+
+     }
+	
+	
+</style>
+<body>
+	 
+	 <img src="images/riju.png">
+	 <a href="file:///E:/non_work/Web%20Devlopment/1Ready/riju%20game/bird%20game/main.html" class="button">PLAY</a>
+	 <h2>FLYING BOY</h2>
+
+
+
+
+	 <footer>&copy;supriya ojha 2020</footer> 
+	
+
+</body>
+</html>

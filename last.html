@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fly Game</title>
+</head>
+<style>
+	body{
+		background-image: url(images/bg.png);
+		max-width: 480px;
+		max-height: 680px;
+
+	}
+
+    footer{
+    	background: #29293d;
+    	color: white;
+    	text-align: center;
+    	position: fixed;
+    	left: 0;
+    	bottom: 0;
+    	width: 100%;
+    	min-width: 480px;
+    }
+    .button{
+    	background-color: #1aff1a;
+    	position: fixed;
+    	left: 27%;
+    	top: 39%;
+    	font-size: 30px;
+    	text-align: center;
+    	text-decoration: none;
+    	color: green;
+    	margin:  20px auto;
+    	border-radius: 30px;
+
+    }
+    a{
+    	text-decoration: none;
+    	padding: 14px 25px;
+    	margin-left: 10px;
+    	display: inline-block;
+    	border:2px solid green; 
+
+    }
+    a:hover{
+    	background-color: green;
+    	color: white;
+    }
+    img{
+    	position: fixed;
+    	left: 26%;
+    	top: 54%;
+    	height: 250px;
+    	width: 250px;
+        animation-name: fly;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+
+    }
+     h2{
+     	position: fixed;
+     	bottom: 38%;
+     	left: 27%;
+     	font-size: 40px;
+     	color: #009900;
+     }
+     h1{
+        position: fixed;
+        left: 19%;
+        font-size: 100px;
+        color: #990000;
+        animation-name: colors;
+        animation-duration: .4s;
+        animation-iteration-count: infinite;
+        
+
+     }
+     @keyframes fly{
+        0%{
+            top: 59%;
+        }
+        25%{
+            top: 49%;
+        }
+        50%{
+            top: 59%;
+        }
+        75%{
+            top: 49%;
+        }
+        100%{
+            top: 59%;
+        }
+
+     }
+     @keyframes colors{
+        0%{
+            color:#990000; 
+        }
+        25%{
+            color:green; 
+        }
+        50%{
+            color: blue;
+        }
+        75%{
+            color: yellow;
+        }
+        100%{
+            color: red;
+        }
+
+     }
+	
+
+
+
+
+
+</style>
+<body>
+
+	 <h1>GAME OVER</h1>
+	 <img src="images/riju.png">
+	 <a href="file:///E:/non_work/Web%20Devlopment/1Ready/riju%20game/bird%20game/main.html" class="button">PLAY AGAIN</a>
+	 <!--h2>FLYING BOY</h2-->
+
+
+
+
+	 <footer>&copy;supriya ojha 2020</footer> 
+	
+
+</body>
+</html>
